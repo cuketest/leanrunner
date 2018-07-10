@@ -1,0 +1,399 @@
+﻿{
+  "ntype": "app",
+  "process": null,
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Window",
+      "description": "",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "ApplicationFrameWindow"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "ApplicationFrameWindow",
+        "title": "Calculator ‎- Calculator",
+        "boundingRectangle": "116,36,529,653"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Window1",
+          "description": "",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "Windows.UI.Core.CoreWindow"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "Windows.UI.Core.CoreWindow",
+            "title": "Calculator",
+            "boundingRectangle": "124,36,513,645"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Number pad",
+              "description": "",
+              "identifyProperties": {
+                "type": "Group",
+                "automationId": "NumberPad"
+              },
+              "cachedProperties": {
+                "automationId": "NumberPad",
+                "type": "Group",
+                "className": "NamedContainerAutomationPeer",
+                "name": "Number pad",
+                "boundingRectangle": "129,414,377,262"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Zero",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "num0Button"
+                  },
+                  "cachedProperties": {
+                    "automationId": "num0Button",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Zero",
+                    "boundingRectangle": "256,614,123,62",
+                    "imgPath": "e4b126eb-1caf-4516-9880-a53dc8fd3d12.png"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "One",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "num1Button"
+                  },
+                  "cachedProperties": {
+                    "automationId": "num1Button",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "One",
+                    "boundingRectangle": "129,547,123,63",
+                    "imgPath": "8968739a-30aa-447a-a4cd-085d4316cd9f.png"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Two",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "num2Button"
+                  },
+                  "cachedProperties": {
+                    "automationId": "num2Button",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Two",
+                    "boundingRectangle": "256,547,123,63",
+                    "imgPath": "a5fab33f-6498-44de-9ce1-5a7f710b7939.png"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Three",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "num3Button"
+                  },
+                  "cachedProperties": {
+                    "automationId": "num3Button",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Three",
+                    "boundingRectangle": "383,547,123,63",
+                    "imgPath": "bac37f2c-d5f4-4fee-b40f-e861750190d6.png"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Four",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "num4Button"
+                  },
+                  "cachedProperties": {
+                    "automationId": "num4Button",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Four",
+                    "boundingRectangle": "129,481,123,62",
+                    "imgPath": "9ec6aeb2-0b5a-4062-bff7-e269509b1fc5.png"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Five",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "num5Button"
+                  },
+                  "cachedProperties": {
+                    "automationId": "num5Button",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Five",
+                    "boundingRectangle": "256,481,123,62",
+                    "imgPath": "5a038d06-0192-47d6-8086-eb3c1ac98929.png"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Six",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "num6Button"
+                  },
+                  "cachedProperties": {
+                    "automationId": "num6Button",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Six",
+                    "boundingRectangle": "383,481,123,62",
+                    "imgPath": "6673587c-c5e8-4bea-9faa-10a383697586.png"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Seven",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "num7Button"
+                  },
+                  "cachedProperties": {
+                    "automationId": "num7Button",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Seven",
+                    "boundingRectangle": "129,414,123,63",
+                    "imgPath": "768a19dd-53d4-4730-9311-dedaacb200bb.png"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Eight",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "num8Button"
+                  },
+                  "cachedProperties": {
+                    "automationId": "num8Button",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Eight",
+                    "boundingRectangle": "256,414,123,63",
+                    "imgPath": "78597e0f-7786-4c0c-b891-f49fb34118e8.png"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Nine",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "num9Button"
+                  },
+                  "cachedProperties": {
+                    "automationId": "num9Button",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Nine",
+                    "boundingRectangle": "383,414,123,63",
+                    "imgPath": "425f9918-9cd0-4e98-b0d3-6936ff1c0705.png"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Decimal Separator",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "decimalSeparatorButton"
+                  },
+                  "cachedProperties": {
+                    "automationId": "decimalSeparatorButton",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Decimal Separator",
+                    "boundingRectangle": "383,614,123,62",
+                    "imgPath": "b7a803fd-71da-4c8f-9e7e-9c1647eb209a.png"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Standard operators",
+              "description": "",
+              "identifyProperties": {
+                "type": "Group",
+                "automationId": "StandardOperators"
+              },
+              "cachedProperties": {
+                "automationId": "StandardOperators",
+                "type": "Group",
+                "className": "NamedContainerAutomationPeer",
+                "name": "Standard operators",
+                "boundingRectangle": "510,348,122,328"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Divide by",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "divideButton"
+                  },
+                  "cachedProperties": {
+                    "automationId": "divideButton",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Divide by",
+                    "boundingRectangle": "510,348,122,62",
+                    "imgPath": "9a9aa29d-0bc6-40f4-923e-221781354ed9.png"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Multiply by",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "multiplyButton"
+                  },
+                  "cachedProperties": {
+                    "automationId": "multiplyButton",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Multiply by",
+                    "boundingRectangle": "510,414,122,63",
+                    "imgPath": "12482dbf-7f82-47f4-8060-a6eca199e3a0.png"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Minus",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "minusButton"
+                  },
+                  "cachedProperties": {
+                    "automationId": "minusButton",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Minus",
+                    "boundingRectangle": "510,481,122,62",
+                    "imgPath": "a57ca0b8-b27f-4ca8-a1b9-727545c1bf80.png"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Plus",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "plusButton"
+                  },
+                  "cachedProperties": {
+                    "automationId": "plusButton",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Plus",
+                    "boundingRectangle": "510,547,122,63",
+                    "imgPath": "b4757331-672f-40e5-8bce-29dda3c569f2.png"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Equals",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "equalButton"
+                  },
+                  "cachedProperties": {
+                    "automationId": "equalButton",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Equals",
+                    "boundingRectangle": "510,614,122,62",
+                    "imgPath": "2bfc7822-455b-4d05-a441-4b6b018ab0f5.png"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Display Result",
+              "description": "",
+              "identifyProperties": {
+                "type": "Text",
+                "automationId": "CalculatorResults"
+              },
+              "cachedProperties": {
+                "automationId": "CalculatorResults",
+                "type": "Text",
+                "name": "Display is 0",
+                "boundingRectangle": "124,145,513,93",
+                "imgPath": "62d0f008-8b04-4941-81e5-92c25859b08f.png"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Display controls",
+              "description": "",
+              "identifyProperties": {
+                "type": "Group",
+                "automationId": "DisplayControls"
+              },
+              "cachedProperties": {
+                "automationId": "DisplayControls",
+                "type": "Group",
+                "className": "NamedContainerAutomationPeer",
+                "name": "Display controls",
+                "boundingRectangle": "98,331,377,62"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Clear",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "clearButton"
+                  },
+                  "cachedProperties": {
+                    "automationId": "clearButton",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Clear",
+                    "boundingRectangle": "225,331,123,62",
+                    "imgPath": "b3046ada-2e13-4e0e-8924-c11c9fd4acae.png"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
